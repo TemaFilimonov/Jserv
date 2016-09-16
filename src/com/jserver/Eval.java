@@ -24,14 +24,9 @@ import javax.tools.JavaCompiler.CompilationTask;
 
 public class Eval {
     public void exec(String code){
-        String src = createCode(code);
-        tryCompile(src);
+        tryCompile(code);
     }
-    public void exec(String[] pcg, String code)  {
-        String src = addPcges(pcg);
-        src += createCode(code);
-        tryCompile(src);
-    }
+
 
     public void compileMemoryMemory(String src, String name, SpecialClassLoader classLoader, PrintStream err) {
         JavaCompiler javac = ToolProvider.getSystemJavaCompiler();
