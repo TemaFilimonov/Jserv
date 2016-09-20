@@ -1,7 +1,5 @@
 package com.itrasition.jserv;
 
-import java.util.Random;
-
 /**
  * Created by Артем Константинович on 17.09.2016.
  */
@@ -28,17 +26,5 @@ public class CodeExemplar {
 
     public void setCode(String code) {
         this.code = code;
-    }
-
-    public static String createUniqueToken(){
-        char[] chars = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        StringBuilder sb = new StringBuilder();
-        Random random = new Random();
-        for (int i = 0; i < 20; i++) {
-            char c = chars[random.nextInt(chars.length)];
-            sb.append(c);
-        }
-        String token = sb.toString();
-        return token;
     }
 }
