@@ -8,8 +8,9 @@ import java.util.ArrayList;
 public class SavedCodes {
     private ArrayList<CodeExemplar> codeList = new ArrayList();
 
-    public void addCodeExemplar(CodeExemplar ce){
+    public String addCodeExemplar(CodeExemplar ce){
         codeList.add(ce);
+        return ce.getUniqueToken();
     }
 
     public CodeExemplar findCodeExemplar(String token){

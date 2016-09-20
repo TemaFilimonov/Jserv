@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="72f2e580-04e4-45b1-ae1d-ea007fedf78b" name="Default" comment="Added Maven dependencies and first test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/CodeExemplar.java" afterPath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/CodeExemplar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java" afterPath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/SavedCodes.java" afterPath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/SavedCodes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java" />
     </list>
     <ignored path="Jserv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="106" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -38,30 +43,36 @@
       <file leaf-file-name="Eval.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
+                <element signature="e#697#698#0" expanded="false" />
+                <element signature="e#729#730#0" expanded="false" />
                 <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
                 <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
                 <element signature="method#createCode#0;class#Eval#0" expanded="false" />
                 <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
                 <element signature="class#MemorySource#0" expanded="false" />
+                <element signature="e#3103#3104#0" expanded="false" />
+                <element signature="e#3129#3130#0" expanded="false" />
                 <element signature="class#MemoryByteCode#0" expanded="false" />
+                <element signature="e#3524#3525#0" expanded="false" />
+                <element signature="e#3568#3569#0" expanded="false" />
                 <element signature="class#SpecialJavaFileManager#0" expanded="false" />
                 <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
                 <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
+                <element signature="e#4439#4440#0" expanded="false" />
+                <element signature="e#4470#4471#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvalTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EvalTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="306">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,8 +202,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Jserv">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Jserv">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main/java/com/itrasition/jserv">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
       </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -297,38 +338,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Jserv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Jserv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main/java/com/itrasition/jserv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests" />
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -356,7 +367,7 @@
       <recent name="I:\Itransition\Jserv\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.EvalTest.exec">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.itrasition.jserv.Main" />
@@ -422,10 +433,7 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -448,10 +456,7 @@
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -887,8 +892,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EvalTest.exec" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EvalTest.exec" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -915,9 +920,8 @@
       <workItem from="1474060457298" duration="8528000" />
       <workItem from="1474101783971" duration="899000" />
       <workItem from="1474317157542" duration="2890000" />
-      <workItem from="1474328445547" duration="5730000" />
-      <workItem from="1474340047132" duration="59000" />
-      <workItem from="1474340189565" duration="5000" />
+      <workItem from="1474328445547" duration="4836000" />
+      <workItem from="1474340589718" duration="109000" />
     </task>
     <servers />
   </component>
@@ -940,21 +944,12 @@
     <history-entry file="EvalTest_exec - 2016.09.20 at 04h 31m 30s.xml">
       <configuration name="EvalTest.exec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EvalTest_exec - 2016.09.20 at 05h 07m 57s.xml">
-      <configuration name="EvalTest.exec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvalTest_exec - 2016.09.20 at 05h 08m 41s.xml">
-      <configuration name="EvalTest.exec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvalTest_exec - 2016.09.20 at 05h 08m 57s.xml">
-      <configuration name="EvalTest.exec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvalTest_exec - 2016.09.20 at 05h 10m 13s.xml">
+    <history-entry file="EvalTest_exec - 2016.09.20 at 06h 04m 49s.xml">
       <configuration name="EvalTest.exec" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24454000" />
+    <option name="totallyTimeSpent" value="23605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -967,20 +962,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765458" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20628998" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32394367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14872068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21055438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -991,7 +987,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1020,52 +1015,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
-            <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
-            <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
-            <element signature="method#createCode#0;class#Eval#0" expanded="false" />
-            <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
-            <element signature="class#MemorySource#0" expanded="false" />
-            <element signature="class#MemoryByteCode#0" expanded="false" />
-            <element signature="class#SpecialJavaFileManager#0" expanded="false" />
-            <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
-            <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="106" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="112" />
           <folding />
@@ -1074,20 +1023,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="646">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
             <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
             <element signature="class#MemorySource#0" expanded="false" />
+            <element signature="e#3103#3104#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
             <element signature="class#MemoryByteCode#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#3568#3569#0" expanded="false" />
             <element signature="class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
+            <element signature="e#4439#4440#0" expanded="false" />
+            <element signature="e#4470#4471#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1122,6 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,6 +1085,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="method#createUniqueToken#0;class#CodeExemplar#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,17 +1096,23 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
             <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
             <element signature="class#MemorySource#0" expanded="false" />
+            <element signature="e#3103#3104#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
             <element signature="class#MemoryByteCode#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#3568#3569#0" expanded="false" />
             <element signature="class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
+            <element signature="e#4439#4440#0" expanded="false" />
+            <element signature="e#4470#4471#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1164,6 +1129,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,6 +1137,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="method#createUniqueToken#0;class#CodeExemplar#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,17 +1148,23 @@
         <state relative-caret-position="612">
           <caret line="66" column="58" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
             <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
             <element signature="class#MemorySource#0" expanded="false" />
+            <element signature="e#3103#3104#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
             <element signature="class#MemoryByteCode#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#3568#3569#0" expanded="false" />
             <element signature="class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
+            <element signature="e#4439#4440#0" expanded="false" />
+            <element signature="e#4470#4471#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1206,6 +1181,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,6 +1189,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="method#createUniqueToken#0;class#CodeExemplar#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1221,17 +1200,23 @@
         <state relative-caret-position="612">
           <caret line="66" column="58" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
             <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
             <element signature="class#MemorySource#0" expanded="false" />
+            <element signature="e#3103#3104#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
             <element signature="class#MemoryByteCode#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#3568#3569#0" expanded="false" />
             <element signature="class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
+            <element signature="e#4439#4440#0" expanded="false" />
+            <element signature="e#4470#4471#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1249,17 +1234,23 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
             <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
             <element signature="class#MemorySource#0" expanded="false" />
+            <element signature="e#3103#3104#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
             <element signature="class#MemoryByteCode#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#3568#3569#0" expanded="false" />
             <element signature="class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
+            <element signature="e#4439#4440#0" expanded="false" />
+            <element signature="e#4470#4471#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1277,17 +1268,23 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
             <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
             <element signature="class#MemorySource#0" expanded="false" />
+            <element signature="e#3103#3104#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
             <element signature="class#MemoryByteCode#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#3568#3569#0" expanded="false" />
             <element signature="class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
+            <element signature="e#4439#4440#0" expanded="false" />
+            <element signature="e#4470#4471#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1305,6 +1302,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
+          <folding>
+            <element signature="method#createUniqueToken#0;class#CodeExemplar#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,6 +1312,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,39 +1327,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="340">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
             <element signature="method#addIncludes#0;class#Eval#0" expanded="false" />
             <element signature="class#MemorySource#0" expanded="false" />
+            <element signature="e#3103#3104#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
             <element signature="class#MemoryByteCode#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#3568#3569#0" expanded="false" />
             <element signature="class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#SpecialJavaFileManager#0;class#SpecialJavaFileManager#0" expanded="false" />
             <element signature="method#getJavaFileForOutput#0;class#SpecialJavaFileManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4439#4440#0" expanded="false" />
+            <element signature="e#4470#4471#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="106" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="112" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
