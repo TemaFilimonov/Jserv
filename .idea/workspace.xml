@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72f2e580-04e4-45b1-ae1d-ea007fedf78b" name="Default" comment="Added Maven dependencies and first test">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jserv.iml" afterPath="$PROJECT_DIR$/Jserv.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/jserver/CodeExemplar.java" afterPath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/CodeExemplar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/jserver/Eval.java" afterPath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/jserver/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/jserver/SavedCodes.java" afterPath="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/SavedCodes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java" />
     </list>
     <ignored path="Jserv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,10 +38,11 @@
       <file leaf-file-name="Eval.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="190">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
                 <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
                 <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
                 <element signature="method#createCode#0;class#Eval#0" expanded="false" />
@@ -66,8 +60,8 @@
       <file leaf-file-name="EvalTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="183">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -362,7 +356,7 @@
       <recent name="I:\Itransition\Jserv\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EvalTest.exec">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.itrasition.jserv.Main" />
@@ -921,7 +915,7 @@
       <workItem from="1474060457298" duration="8528000" />
       <workItem from="1474101783971" duration="899000" />
       <workItem from="1474317157542" duration="2890000" />
-      <workItem from="1474328445547" duration="4836000" />
+      <workItem from="1474328445547" duration="5730000" />
     </task>
     <servers />
   </component>
@@ -944,9 +938,21 @@
     <history-entry file="EvalTest_exec - 2016.09.20 at 04h 31m 30s.xml">
       <configuration name="EvalTest.exec" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EvalTest_exec - 2016.09.20 at 05h 07m 57s.xml">
+      <configuration name="EvalTest.exec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvalTest_exec - 2016.09.20 at 05h 08m 41s.xml">
+      <configuration name="EvalTest.exec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvalTest_exec - 2016.09.20 at 05h 08m 57s.xml">
+      <configuration name="EvalTest.exec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvalTest_exec - 2016.09.20 at 05h 10m 13s.xml">
+      <configuration name="EvalTest.exec" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23496000" />
+    <option name="totallyTimeSpent" value="24390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -959,7 +965,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -968,12 +974,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21104388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21104388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1042,6 +1048,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
@@ -1087,6 +1094,7 @@
           <caret line="66" column="58" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
@@ -1132,6 +1140,7 @@
           <caret line="66" column="58" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
@@ -1159,6 +1168,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
@@ -1186,6 +1196,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
@@ -1259,10 +1270,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="190">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#compileMemoryMemory#0;class#Eval#0" expanded="false" />
             <element signature="method#tryCompile#0;class#Eval#0" expanded="false" />
             <element signature="method#addPcges#0;class#Eval#0" expanded="false" />
             <element signature="method#createCode#0;class#Eval#0" expanded="false" />
@@ -1278,8 +1290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="183">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

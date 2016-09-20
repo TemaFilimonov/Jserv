@@ -15,13 +15,18 @@ public class EvalTest {
         Eval eval = new Eval();
         ByteArrayOutputStream baOut = new ByteArrayOutputStream();
         PrintStream out = new PrintStream(baOut);
+
         System.setOut(out);
         System.setErr(out);
+
         eval.exec(eval.createCode("System.out.print(\"testing\");"));
+
         String s = baOut.toString();
+
         PrintStream sysOut = System.out;
         System.setOut(sysOut);
-        Assert.assertEquals(s, "testing");
+
+        assertEquals("testing", s);
     }
 
 }
