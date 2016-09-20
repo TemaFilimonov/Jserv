@@ -1,4 +1,4 @@
-package com.jserver;
+package com.itrasition.jserv;
 
 
 

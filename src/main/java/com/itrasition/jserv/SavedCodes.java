@@ -1,4 +1,4 @@
-package com.jserver;
+package com.itrasition.jserv;
 
 /**
  * Created by Артем Константинович on 17.09.2016.

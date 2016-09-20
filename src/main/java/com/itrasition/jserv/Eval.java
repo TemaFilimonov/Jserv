@@ -1,4 +1,4 @@
-package com.jserver;
+package com.itrasition.jserv;
 
 /**
  * Created by Артем Константинович on 16.09.2016.
@@ -37,7 +37,6 @@ public class Eval {
                 Arrays.asList(new JavaFileObject[] { new MemorySource(name, src) }));
         boolean status = compile.call();
         if(err != null) {
-            err.println("Compile status: " + status);
             for(Diagnostic<? extends JavaFileObject> dia : diacol.getDiagnostics()) {
                 err.println(dia);
             }
