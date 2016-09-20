@@ -62,6 +62,7 @@ public class Eval {
     }
     public String createCode(String code){
         String src = addIncludes();
+<<<<<<< HEAD
 
 //        if (code.lastIndexOf("class") == -1){
 //            src += "public class SpecialClassToCompile {";
@@ -70,6 +71,15 @@ public class Eval {
 //            src += "public void evalFunc(){";
 //        }
 //        src += code + "}}";
+=======
+        if (code.lastIndexOf("class") == -1) {
+            src += "public class SpecialClassToCompile {";
+            src += "public void evalFunc(){";
+            src += code + "}}";
+            return src;
+        }
+        src += code;
+>>>>>>> origin/master
         return src;
 
     }
