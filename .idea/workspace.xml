@@ -182,11 +182,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/itrasition/jserv/EvalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Eval.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Interpretator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/itrasition/jserv/Main.java" />
-=======
->>>>>>> origin/master
       </list>
     </option>
   </component>
