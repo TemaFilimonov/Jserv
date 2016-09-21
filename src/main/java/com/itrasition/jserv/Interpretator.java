@@ -8,13 +8,11 @@ import java.util.regex.Pattern;
  */
 public class Interpretator {
     private static final Pattern CONTROL_PATTERN = Pattern.compile("\\{%(.*?)%\\}");
-    private static final String header = "import java.lang.String; import java.util.Calendar; class SpecialClassToCompile { public void evalFunc(java.io.PrintStream out){";
 
     public static String interpretate(String input, String... var) {
         int statText = 0;
         int endText;
         StringBuilder outputString = new StringBuilder();
-        outputString.append(header);
         for (String variableString : var) {
             outputString.append(variableString).append(';');
         }
@@ -24,7 +22,7 @@ public class Interpretator {
             endText = m.start();
             String group = m.group(1);
             if (statText < endText) {
-                outputString.append("out.print(\"").append(input.substring(statText, endText)).append("\");");
+                outputString.append("System.out.print(\"").append(input.substring(statText, endText)).append("\");");
             }
             switch (group.charAt(0)) {
                 case '@':
@@ -37,7 +35,7 @@ public class Interpretator {
                     }
                     break;
                 case '=':
-                    outputString.append("out.print(").append(group.substring(1)).append(");");
+                    outputString.append("System.out.print(").append(group.substring(1)).append(");");
                     break;
                 case '?':
                     if (group.length() > 1) {
@@ -52,9 +50,9 @@ public class Interpretator {
             statText = m.end();
         }
         if (statText < input.length()) {
-            outputString.append("out.print(\"").append(input.substring(statText)).append("\");");
+            outputString.append("System.out.print(\"").append(input.substring(statText)).append("\");");
         }
-        return outputString.append("}}").toString();
+        return outputString.toString();
     }
 
 

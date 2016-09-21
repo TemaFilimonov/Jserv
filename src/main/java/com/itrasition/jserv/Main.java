@@ -9,10 +9,8 @@ public class Main {
         SavedCodes savedCodes = new SavedCodes();
 
         //TODO: take from C# part source with some code.
-        //System.out.println(Interpretator.interpretate("{%@n%}<{%@ n + m %}*{%@%}>{%@%}","int n = 2","int m = 3"));
-
         String uniqueToken = CodeExemplar.createUniqueToken();
-        savedCodes.addCodeExemplar(new CodeExemplar(uniqueToken, Interpretator.interpretate("{%@n%}<{%@ n + m %}*{%@%}>{%@%}","int n = 2","int m = 3")));
+        savedCodes.addCodeExemplar(new CodeExemplar(uniqueToken, e.createCode(Interpretator.interpretate("{%@n%}<{%@ n + m %}*{%@%}>{%@%}","int n = 2","int m = 3"))));
         //TODO: Send to C# part token "uniqueToken".
 
         //TODO: after request compile code.
