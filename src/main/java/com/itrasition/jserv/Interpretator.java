@@ -16,11 +16,11 @@ public class Interpretator {
         for (String variableString : var) {
             outputString.append(variableString).append(';');
         }
-        Matcher m = CONTROL_PATTERN.matcher(input);
+        Matcher matcher = CONTROL_PATTERN.matcher(input);
         int depth = 0;
-        while (m.find()) {
-            endText = m.start();
-            String group = m.group(1);
+        while (matcher.find()) {
+            endText = matcher.start();
+            String group = matcher.group(1);
             if (statText < endText) {
                 outputString.append("System.out.print(\"").append(input.substring(statText, endText)).append("\");");
             }
@@ -47,7 +47,7 @@ public class Interpretator {
                 default:
                     outputString.append(group);
             }
-            statText = m.end();
+            statText = matcher.end();
         }
         if (statText < input.length()) {
             outputString.append("System.out.print(\"").append(input.substring(statText)).append("\");");
