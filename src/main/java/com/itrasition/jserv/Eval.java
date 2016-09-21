@@ -60,7 +60,7 @@ public class Eval {
         }
         return src;
     }
-    public String createCode(String code){
+    public static String createCode(String code){
         String src = addIncludes();
         if (code.lastIndexOf("class") == -1) {
             src += "public class SpecialClassToCompile {";
@@ -72,7 +72,7 @@ public class Eval {
         return src;
 
     }
-    private String addIncludes (){
+    private static String addIncludes (){
         return " import java.lang.String;" +
                 "import java.util.Calendar;";
     }

@@ -12,20 +12,51 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 
+
 @XmlRootElement(name = "getCodeFromSOAPService", namespace = "http://jserv.itransition.com/")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "getCodeFromSOAPService", namespace = "http://jserv.itransition.com/")
 public class GetCodeFromSOAPService {
-    @XmlElement(name = "encriptedCode", namespace = "")
-    private String encriptedCode;
+
+    @XmlElement(name = "sourcecode", namespace = "")
+    private String sourcecode;
+
+    @XmlElement(name = "namespaces", namespace = "")
+    private String namespaces;
+
+    @XmlElement(name = "variabletype", namespace = "")
+    private String variabletype;
+
+    @XmlElement(name = "variablevalue", namespace = "")
+    private String variablevalue;
 
 
-    public String getEncriptedCode() {
-        return this.encriptedCode;
+    public String getSourcecode() {
+        return sourcecode;
+    }
+    public void setSourcecode(String sourcecode) {
+        this.sourcecode = sourcecode;
     }
 
-    public void setEncriptedCode(String encriptedCode) {
-        this.encriptedCode = encriptedCode;
+    public String getNamespaces() {
+        return namespaces;
+    }
+    public void setNamespaces(String namespaces) {
+        this.namespaces = namespaces;
+    }
+
+    public String getVariabletype() {
+        return variabletype;
+    }
+    public void setVariabletype(String variabletype) {
+        this.variabletype = variabletype;
+    }
+
+    public String getVariablevalue() {
+        return variablevalue;
+    }
+    public void setVariablevalue(String variablevalue) {
+        this.variablevalue = variablevalue;
     }
 }
 

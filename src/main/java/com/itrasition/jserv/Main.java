@@ -1,27 +1,37 @@
 package com.itrasition.jserv;
 
+import javax.xml.namespace.QName;
+import javax.xml.ws.Endpoint;
+import javax.xml.ws.Service;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 
 
 public class Main {
 
     public static void main(String[] args) {
-        Eval e = new Eval();
-        SavedCodes savedCodes = new SavedCodes();
-        // Endpoint.publish("http://localhost:9999/ws/hello", new SOAPService());
 
+        final String ADDRESS = "http://localhost:56405/WebService1.asmx?op=HelloWorld";
 
-        //TODO: take from C# part source with some code.
-        String uniqueToken = CodeExemplar.createUniqueToken();
-        savedCodes.addCodeExemplar(new CodeExemplar(uniqueToken, e.createCode(Interpretator.interpretate("{%@n%}<{%@ n + m %}*{%@%}>{%@%}","int n = 2","int m = 3"))));
-        //TODO: Send to C# part token "uniqueToken".
-
-        //TODO: after request compile code.
+        Endpoint.publish(ADDRESS,  new SOAPService());
+        URL url = null;
+        
         try {
-            e.exec(savedCodes.findCodeExemplar(uniqueToken).getCode());
-        } catch (Exception e1) {
-            e1.getMessage();
+            url = new URL(ADDRESS);
+        } catch (MalformedURLException e1) {
+            e1.printStackTrace();
         }
-        //TODO: send to c# part result of compiling.
+
+        QName qname = new QName("http://jserv.itransition.com/", "AnswerToSharp");
+        Service service = Service.create(url, qname);
+        ISOAPService hello = service.getPort(ISOAPService.class);
+
+        System.out.println(hello.getCode(Eval.createCode(Interpretator.interpretate("{%@n%}<{%@ n + m %}*{%@%}>{%@%}","int n = 2","int m = 3"))));
+
+
+
+
     }
 
 }

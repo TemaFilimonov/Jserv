@@ -9,14 +9,8 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 
-
-
-
-
-
-
 @WebService
 @SOAPBinding(style = Style.DOCUMENT, use= SOAPBinding.Use.LITERAL)
 public interface ISOAPService {
-    @WebMethod String getEncriptedCode(String answer);
+    @WebMethod String getCode(String code);
 }
