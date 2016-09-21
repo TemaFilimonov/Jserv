@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Eval e = new Eval();
         SavedCodes savedCodes = new SavedCodes();
+        // Endpoint.publish("http://localhost:9999/ws/hello", new SOAPService());
+
 
         //TODO: take from C# part source with some code.
         String uniqueToken = CodeExemplar.createUniqueToken();

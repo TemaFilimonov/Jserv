@@ -2,7 +2,6 @@ package com.itrasition.jserv;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 /**
  * Created by Nox on 20.09.2016.
  */
