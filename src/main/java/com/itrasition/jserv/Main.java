@@ -10,7 +10,7 @@ public class Main {
 
         //TODO: take from C# part source with some code.
         String uniqueToken = CodeExemplar.createUniqueToken();
-        savedCodes.addCodeExemplar(new CodeExemplar(uniqueToken, e.createCode("System.out.println(\"testing\");")));
+        savedCodes.addCodeExemplar(new CodeExemplar(uniqueToken, e.createCode(Interpretator.interpretate("{%@n%}<{%@ n + m %}*{%@%}>{%@%}","int n = 2","int m = 3"))));
         //TODO: Send to C# part token "uniqueToken".
 
         //TODO: after request compile code.

@@ -61,3 +61,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.idea/workspace.xml
+target/surefire-reports/TEST-com.itrasition.jserv.EvalTest.xml
+target/surefire-reports/com.itrasition.jserv.EvalTest.txt
