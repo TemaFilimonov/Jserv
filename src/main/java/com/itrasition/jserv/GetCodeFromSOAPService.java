@@ -27,9 +27,6 @@ public class GetCodeFromSOAPService {
     @XmlElement(name = "variabletype", namespace = "")
     private String variabletype;
 
-    @XmlElement(name = "variablevalue", namespace = "")
-    private String variablevalue;
-
 
     public String getSourcecode() {
         return sourcecode;
@@ -52,12 +49,4 @@ public class GetCodeFromSOAPService {
         this.variabletype = variabletype;
     }
 
-    public String getVariablevalue() {
-        return variablevalue;
-    }
-    public void setVariablevalue(String variablevalue) {
-        this.variablevalue = variablevalue;
-    }
 }
-
-
