@@ -38,7 +38,7 @@ public class Interpretator {
                     break;
                 case '?':
                     if (group.length() > 1) {
-                        outputString.append("if(").append(group.substring(1)).append(") {");
+                        outputString.append("if(").append(group.substring(1)).append("){");
                     } else {
                         outputString.append("}");
                     }
